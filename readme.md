@@ -27,6 +27,10 @@ HEX is a whole-body vision-language-action framework for full-sized humanoid rob
 The key idea of HEX is to align heterogeneous humanoid states into shared body-part slots and learn predictive body dynamics from cross-embodiment humanoid data. This enables the policy to transfer across different humanoid platforms and perform long-horizon whole-body manipulation.
 During deployment, HEX directly predicts arm, hand, and waist actions, while providing high-level commands to a low-level RL-based whole-body controller for generating leg actions. This design enables coordinated and stable humanoid manipulation.
 
+## News
+
+- ✅ **2026/05/17**: Pretraining and fine-tuning code of VLA has been released.
+
 ## Installation
 
 First, git clone this repo and `cd` into it.
